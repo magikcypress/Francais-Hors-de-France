@@ -8,7 +8,7 @@ block content
 			| Nous portons sous forme de carte et de graphique les inscriptions au registre des Français établis hors de France, de 2001 à 2013. L'inscription au Registre, démarche volontaire ouverte aux Français résidant à l'étranger, s'effectue auprès du réseau des ambassades et consulats français.
 			br
 			br
-			| Nous utilisons le jeu de données présent sur 
+			| Nous utilisons le jeu de données présent sur
 			|
 			a(href='https://www.data.gouv.fr/fr/datasets/francais-de-l-etranger-inscriptions-au-registre-des-francais-etablis-hors-de-france-2001-2013/') opendata.gouv
 			| , jeu de données qui détail année par année, et pays par pays les inscriptions.
@@ -17,16 +17,14 @@ block content
 		section
 			.container
 				section.map
-					h2 Carte des Français inscrits hors de France de 2001 à 2013	
+					h2 Carte des Français inscrits hors de France de 2001 à 2013
 					#mapid(style='width: 70%; height: 700px; position: relative; margin: auto;')
 				section.map2
 					h2 Carte des Français inscrits hors de France en 2013
 					#mapid2(style='width: 70%; height: 700px; position: relative; margin: auto;')
-				section.map3
-					h2 Graphique des Français inscrits hors de France en 2013
-					svg(width='1560', height='700', style="position: relative; padding-left: 5em; margin: auto;")
-	footer 
-		p Les cartes ci-dessus ont été réalisé avec les technologies 
+
+	footer
+		p Les cartes ci-dessus ont été réalisé avec les technologies
 		a(href='http://leafletjs.com/') leaflet
-		|  ~ 
+		|  ~
 		a(href='https://nodejs.org/en/') nodejs
