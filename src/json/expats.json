@@ -1,0 +1,27 @@
+{
+   "type": "FeatureCollection",
+   "features": [{
+         "type": "Feature",
+         "id": "AFG",
+         "properties": {
+            "name": "Afghanistan",
+            "annee2001": null,
+            "annee2002": null,
+            "annee2003": null,
+            "annee2004": null,
+            "annee2005": 206,
+            "annee2006": 226,
+            "annee2007": 189,
+            "annee2008": 177,
+            "annee2009": 303,
+            "annee2010": 319,
+            "annee2011": 334,
+            "annee2012": 286,
+            "annee2013": 241
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [65.0,33.0]
+         }
+   }]
+}
