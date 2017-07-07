@@ -11,7 +11,7 @@
     overflow: auto;
   }
   body::after, body::before {
-    background: transparent url("/dist/images/flag.svg") no-repeat scroll 0 0/100% auto;
+    background: transparent url("../images/flag.svg") no-repeat scroll 0 0/100% auto;
     height: 4px;
     left: 50%;
     overflow: hidden;
