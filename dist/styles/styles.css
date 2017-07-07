@@ -1,0 +1,161 @@
+@media all {
+  * {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "LatoWeb";
+    font-size: 16pt;
+    font-style: normal;
+    overflow: auto;
+  }
+  body::after, body::before {
+    background: transparent url("/dist/images/flag.svg") no-repeat scroll 0 0/100% auto;
+    height: 4px;
+    left: 50%;
+    overflow: hidden;
+    position: fixed;
+    -webkit-transform: translate(-50%, 0px);
+            transform: translate(-50%, 0px);
+  }
+  body, body::before {
+    top: 0;
+  }
+  body, body::after {
+    bottom: 0;
+  }
+  body::after, body::before {
+    content: "";
+    width: 100%;
+  }
+  img.main_fond {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  header {
+    padding: 10em;
+    height: 900px;
+  }
+  h1,
+  h2,
+  footer {
+    text-align: center;
+  }
+  h2 {
+    margin-bottom: 2em;
+  }
+  h1, h2 {
+    color: #3695ff;
+  }
+  .map h2, .map3 h2 {
+    color: #ffffff;
+  }
+  .intro {
+    margin: 5em;
+    padding: 2em;
+    background-color: #ffffff;
+  }
+  .none {
+    display: none;
+  }
+  .block {
+    display: block;
+    font-weight: bold;
+    padding-top: .5em;
+  }
+  .leaflet-popup-content {
+    font-family: "LatoWeb";
+    font-size: 12pt;
+    font-style: normal;
+    width: 301px;
+  }
+  a {
+    color: #000;
+  }
+  a:hover,
+  a:focus,
+  a:active {
+    color: #3b3b3b;
+  }
+  a:focus {
+    color: #3b3b3b;
+  }
+  .map,
+  .map2,
+  .map3 {
+    padding: 3em 2em;
+  }
+  .map, .map3 {
+    background-color: #7f7fff;
+  }
+  .map2, footer {
+    background-color: #ffffff;
+  }
+  .info {
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  .info h4 {
+    margin: 0 0 5px;
+    color: #777;
+  }
+  .legend {
+    text-align: left;
+    line-height: 18px;
+    color: #555;
+  }
+  .legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+  }
+  .axis {
+    font: 10px sans-serif;
+  }
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+  .x.axis line,
+  .y.axis line {
+    stroke: lightgrey;
+  }
+  footer {
+    margin: 2em 0;
+    padding: 2em 0;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    padding: 0;
+  }
+  h1, footer, .alternative_text {
+    padding: .3em;
+  }
+  .wrapper {
+    width: 80%;
+  }
+  .leaflet-popup-content {
+    font-family: "LatoWeb";
+    font-size: 6pt;
+    font-style: normal;
+  }
+}
