@@ -141,9 +141,12 @@ gulp.task('start-server', function() {
 
 gulp.task('serve', ['watch', 'start-server']);
 
+
+
 gulp.task('deploy', ['build'], function() {
   return gulp.src('./dist/**/*')
     .pipe(ghPages({
-      remoteUrl: "gogs@debile.ddns.net:cyp/carte_expat.git"
+      branch: "master",
+      remoteUrl: "git@github.com:magikcypress/Francais-Hors-de-France.git"
     }));
 });

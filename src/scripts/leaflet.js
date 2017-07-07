@@ -2,12 +2,12 @@ var map1 = L.map( 'mapid2', {
   center: [20.0, 5.0],
   minZoom: 2,
   zoom: 2
-})
+});
 
 L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   subdomains: ['a', 'b', 'c']
-}).addTo( map1 )
+}).addTo( map1 );
 
 $(document).ready(function() {
 	$.getJSON("/dist/json/country.geo.json")
@@ -119,6 +119,6 @@ $(document).ready(function() {
 			legend.addTo(map1);
 	    })
 	    .fail(function(err){
-	        console.log(err.responseText)
+	        console.log(err.responseText);
 	    });
 });

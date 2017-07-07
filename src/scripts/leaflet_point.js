@@ -2,12 +2,12 @@ var map = L.map( 'mapid', {
   center: [20.0, 6.0],
   minZoom: 2,
   zoom: 2
-})
+});
 
 L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   subdomains: ['a', 'b', 'c']
-}).addTo( map )
+}).addTo( map );
 
 $(document).ready(function() {
 	$.getJSON("/dist/json/expats_qualifie.json")
@@ -31,12 +31,12 @@ $(document).ready(function() {
 	                	'<br/>2010: ' + feature.properties.annee2010 +
 	                	'<br/>2011: ' + feature.properties.annee2011 +
 	                	'<br/>2012: ' + feature.properties.annee2012 +
-	                	'<br/>2013: ' + feature.properties.annee2013)
+	                	'<br/>2013: ' + feature.properties.annee2013);
 	            }
 	        }).addTo(map);
 	        map.attributionControl.addAttribution('Expatriés Français de 2001 &agrave; 2013 | source: <a href="https://www.data.gouv.fr/fr/datasets/francais-de-l-etranger-inscriptions-au-registre-des-francais-etablis-hors-de-france-2001-2013/">Français établis hors de France de 2001 à 2013</a>');
 	    })
 	    .fail(function(err){
-	        console.log(err.responseText)
+	        console.log(err.responseText);
 	    });
 });
