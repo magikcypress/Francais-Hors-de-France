@@ -1,0 +1,533 @@
+{
+   "type": "FeatureCollection",
+   "features": [{
+         "type": "Feature",
+         "properties": {
+            "name": "Allemagne",
+            "annee2001": 87677,
+            "annee2002": 96619,
+            "annee2003": 107774,
+            "annee2004": 106781,
+            "annee2005": 101391,
+            "annee2006": 108821,
+            "annee2007": 99288,
+            "annee2008": 106842,
+            "annee2009": 109468,
+            "annee2010": 111742,
+            "annee2011": 114372,
+            "annee2012": 110881,
+            "annee2013": 112238
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [9.0, 51.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Australie",
+            "annee2001": 9838,
+            "annee2002": 11556,
+            "annee2003": 13921,
+            "annee2004": 13503,
+            "annee2005": 14270,
+            "annee2006": 17312,
+            "annee2007": 14442,
+            "annee2008": 15291,
+            "annee2009": 16004,
+            "annee2010": 15821,
+            "annee2011": 18323,
+            "annee2012": 19104,
+            "annee2013": 20670
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [133.0, -27.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Autriche",
+            "annee2001": 4726,
+            "annee2002": 5250,
+            "annee2003": 5727,
+            "annee2004": 6052,
+            "annee2005": 6152,
+            "annee2006": 6465,
+            "annee2007": 6887,
+            "annee2008": 7168,
+            "annee2009": 7454,
+            "annee2010": 7482,
+            "annee2011": 8024,
+            "annee2012": 8291,
+            "annee2013": 8668
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [13.33333333, 47.33333333]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Belgique",
+            "annee2001": 69434,
+            "annee2002": 76953,
+            "annee2003": 85587,
+            "annee2004": 86069,
+            "annee2005": 79828,
+            "annee2006": 82271,
+            "annee2007": 81608,
+            "annee2008": 90588,
+            "annee2009": 96596,
+            "annee2010": 101236,
+            "annee2011": 109426,
+            "annee2012": 113563,
+            "annee2013": 115888
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [4.0, 50.83333333]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Canada",
+            "annee2001": 45458,
+            "annee2002": 52017,
+            "annee2003": 60047,
+            "annee2004": 62364,
+            "annee2005": 60763,
+            "annee2006": 67200,
+            "annee2007": 63732,
+            "annee2008": 68075,
+            "annee2009": 69868,
+            "annee2010": 71404,
+            "annee2011": 79328,
+            "annee2012": 78647,
+            "annee2013": 83295
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [-95.0, 60.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Coree du sud",
+            "annee2001": 1354,
+            "annee2002": 1478,
+            "annee2003": 1560,
+            "annee2004": 1611,
+            "annee2005": 1554,
+            "annee2006": 1526,
+            "annee2007": 1559,
+            "annee2008": 1715,
+            "annee2009": 1843,
+            "annee2010": 1989,
+            "annee2011": 1993,
+            "annee2012": 2054,
+            "annee2013": 2451
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [127.5, 37.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Danemark",
+            "annee2001": 2905,
+            "annee2002": 3348,
+            "annee2003": 3744,
+            "annee2004": 3570,
+            "annee2005": 3838,
+            "annee2006": 4408,
+            "annee2007": 3745,
+            "annee2008": 4258,
+            "annee2009": 4462,
+            "annee2010": 4903,
+            "annee2011": 5214,
+            "annee2012": 5260,
+            "annee2013": 5216
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [10.0, 56.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Espagne",
+            "annee2001": 48661,
+            "annee2002": 56867,
+            "annee2003": 65669,
+            "annee2004": 68477,
+            "annee2005": 71226,
+            "annee2006": 82458,
+            "annee2007": 69290,
+            "annee2008": 82050,
+            "annee2009": 86173,
+            "annee2010": 89391,
+            "annee2011": 94056,
+            "annee2012": 95052,
+            "annee2013": 91707
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [-4.0, 40.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Etats-Unis",
+            "annee2001": 81661,
+            "annee2002": 88287,
+            "annee2003": 102873,
+            "annee2004": 104978,
+            "annee2005": 106099,
+            "annee2006": 116438,
+            "annee2007": 111875,
+            "annee2008": 117076,
+            "annee2009": 118197,
+            "annee2010": 115058,
+            "annee2011": 122686,
+            "annee2012": 125171,
+            "annee2013": 129520
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [-97.0, 38.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Finlande",
+            "annee2001": 1382,
+            "annee2002": 1480,
+            "annee2003": 1618,
+            "annee2004": 1758,
+            "annee2005": 1915,
+            "annee2006": 2158,
+            "annee2007": 2244,
+            "annee2008": 2353,
+            "annee2009": 2483,
+            "annee2010": 2249,
+            "annee2011": 2569,
+            "annee2012": 2573,
+            "annee2013": 2600
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [26.0, 64.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Irlande",
+            "annee2001": 3980,
+            "annee2002": 4720,
+            "annee2003": 5664,
+            "annee2004": 6091,
+            "annee2005": 6669,
+            "annee2006": 8258,
+            "annee2007": 7236,
+            "annee2008": 8448,
+            "annee2009": 8651,
+            "annee2010": 8589,
+            "annee2011": 8881,
+            "annee2012": 8980,
+            "annee2013": 8310
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [-8.0, 53.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Israël",
+            "annee2001": 33489,
+            "annee2002": 38157,
+            "annee2003": 42533,
+            "annee2004": 43111,
+            "annee2005": 42573,
+            "annee2006": 44279,
+            "annee2007": 49137,
+            "annee2008": 56585,
+            "annee2009": 57941,
+            "annee2010": 59018,
+            "annee2011": 58840,
+            "annee2012": 54886,
+            "annee2013": 51714
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [34.75, 31.5]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Italie",
+            "annee2001": 30717,
+            "annee2002": 35682,
+            "annee2003": 41133,
+            "annee2004": 41797,
+            "annee2005": 41494,
+            "annee2006": 44497,
+            "annee2007": 44561,
+            "annee2008": 46224,
+            "annee2009": 46618,
+            "annee2010": 46554,
+            "annee2011": 48352,
+            "annee2012": 46987,
+            "annee2013": 46896
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [12.83333333, 42.83333333]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Japon",
+            "annee2001": 5373,
+            "annee2002": 5909,
+            "annee2003": 6436,
+            "annee2004": 6755,
+            "annee2005": 7127,
+            "annee2006": 7894,
+            "annee2007": 7735,
+            "annee2008": 7942,
+            "annee2009": 6088,
+            "annee2010": 7262,
+            "annee2011": 7480,
+            "annee2012": 7305,
+            "annee2013": 7292
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [138.0, 36.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Mexique",
+            "annee2001": 9384,
+            "annee2002": 11293,
+            "annee2003": 13087,
+            "annee2004": 13681,
+            "annee2005": 13510,
+            "annee2006": 14492,
+            "annee2007": 14315,
+            "annee2008": 15378,
+            "annee2009": 16048,
+            "annee2010": 16404,
+            "annee2011": 17315,
+            "annee2012": 17556,
+            "annee2013": 17690
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [-102.0, 23.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Norvège",
+            "annee2001": 2413,
+            "annee2002": 2792,
+            "annee2003": 3227,
+            "annee2004": 3476,
+            "annee2005": 3697,
+            "annee2006": 3933,
+            "annee2007": 4273,
+            "annee2008": 4602,
+            "annee2009": 4734,
+            "annee2010": 4760,
+            "annee2011": 5034,
+            "annee2012": 5097,
+            "annee2013": 5111
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [10.0, 62.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Nouvelle-Zélande",
+            "annee2001": 1254,
+            "annee2002": 1307,
+            "annee2003": 1619,
+            "annee2004": 1707,
+            "annee2005": 2040,
+            "annee2006": 2714,
+            "annee2007": 2883,
+            "annee2008": 3188,
+            "annee2009": 3394,
+            "annee2010": 3304,
+            "annee2011": 3512,
+            "annee2012": 3491,
+            "annee2013": 3612
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [174.0, -41.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Pays-bas",
+            "annee2001": 16423,
+            "annee2002": 18276,
+            "annee2003": 19552,
+            "annee2004": 19148,
+            "annee2005": 18519,
+            "annee2006": 19968,
+            "annee2007": 19375,
+            "annee2008": 21282,
+            "annee2009": 22407,
+            "annee2010": 23593,
+            "annee2011": 23934,
+            "annee2012": 23149,
+            "annee2013": 23448
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [5.75, 52.5]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Portugal",
+            "annee2001": 9287,
+            "annee2002": 10455,
+            "annee2003": 11789,
+            "annee2004": 11998,
+            "annee2005": 11956,
+            "annee2006": 12633,
+            "annee2007": 12135,
+            "annee2008": 13864,
+            "annee2009": 14320,
+            "annee2010": 15049,
+            "annee2011": 15572,
+            "annee2012": 15707,
+            "annee2013": 15472
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [-8.0, 39.5]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Royaume-uni",
+            "annee2001": 78919,
+            "annee2002": 85823,
+            "annee2003": 91630,
+            "annee2004": 94563,
+            "annee2005": 102470,
+            "annee2006": 111186,
+            "annee2007": 107914,
+            "annee2008": 112660,
+            "annee2009": 113127,
+            "annee2010": 113655,
+            "annee2011": 123306,
+            "annee2012": 126049,
+            "annee2013": 126239
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [-2.0, 54.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Russie",
+            "annee2001": 2302,
+            "annee2002": 2700,
+            "annee2003": 3082,
+            "annee2004": 3342,
+            "annee2005": 3817,
+            "annee2006": 4683,
+            "annee2007": 4769,
+            "annee2008": 5139,
+            "annee2009": 5251,
+            "annee2010": 5417,
+            "annee2011": 5752,
+            "annee2012": 5764,
+            "annee2013": 6093
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [100.0, 60.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Suède",
+            "annee2001": 3305,
+            "annee2002": 4057,
+            "annee2003": 4983,
+            "annee2004": 5205,
+            "annee2005": 5226,
+            "annee2006": 5317,
+            "annee2007": 4607,
+            "annee2008": 4859,
+            "annee2009": 5395,
+            "annee2010": 5585,
+            "annee2011": 6329,
+            "annee2012": 6798,
+            "annee2013": 6785
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [15.0, 62.0]
+         }
+      },
+      {
+         "type": "Feature",
+         "properties": {
+            "name": "Suisse",
+            "annee2001": 109106,
+            "annee2002": 118043,
+            "annee2003": 129506,
+            "annee2004": 133074,
+            "annee2005": 128701,
+            "annee2006": 129872,
+            "annee2007": 132784,
+            "annee2008": 138349,
+            "annee2009": 143870,
+            "annee2010": 145108,
+            "annee2011": 155743,
+            "annee2012": 158862,
+            "annee2013": 163600
+         },
+         "geometry": {
+            "type": "Point",
+            "coordinates": [8.0, 47.0]
+         }
+      }
+   ]
+}
