@@ -12,8 +12,8 @@ Cette page web permet d'afficher deux cartes avec Lefleat à partir des données
 
 # Comment afficher la page ?
 
-- lancer nodejs `node index.js`
-- dans le navigateur taper **localhost:8000**
+- lancer nodejs `gulp serve`
+- dans le navigateur taper **http://127.0.0.1:8080/pages/**
 
 # TODO
 

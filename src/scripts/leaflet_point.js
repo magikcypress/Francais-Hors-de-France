@@ -10,10 +10,10 @@ L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo( map );
 
 $(document).ready(function() {
-	$.getJSON("/dist/json/expats_qualifie.json")
+	$.getJSON("../json/expats_qualifie.json")
 	    .then(function (data) {
 	        var Icon = L.icon({
-	            iconUrl: '/dist/images/marker-icon.png'
+	            iconUrl: '../images/marker-icon.png'
 	        });
 	        L.geoJson(data, {
 	            pointToLayer: function (feature, latlng) {

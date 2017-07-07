@@ -10,7 +10,7 @@ L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo( map1 );
 
 $(document).ready(function() {
-	$.getJSON("/dist/json/country.geo.json")
+	$.getJSON("../json/country.geo.json")
 	    .then(function (data) {
 
 	    	var info = L.control();

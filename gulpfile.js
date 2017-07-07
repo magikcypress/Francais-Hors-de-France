@@ -22,7 +22,8 @@ var gulp = require('gulp'),
     livereload = require('gulp-livereload'),
     connect = require('gulp-connect'),
     ghPages = require('gulp-gh-pages'),
-    del = require('del');
+    del = require('del'),
+    serve = require('gulp-serve');
 
 // Styles
 gulp.task('styles', function () {
@@ -141,13 +142,10 @@ gulp.task('start-server', function() {
 
 gulp.task('serve', ['watch', 'start-server']);
 
-
-
 gulp.task('deploy', ['build'], function() {
   return gulp.src('./dist/**/*')
     .pipe(ghPages({
-      branch: "master",
-      cacheDir: "docs",
+      branch: "gh-pages",
       remoteUrl: "git@github.com:magikcypress/Francais-Hors-de-France.git"
     }));
 });

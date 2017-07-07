@@ -11,8 +11,8 @@
         overflow: auto
     }
 
-    body::after, body::before { 
-        background: rgba(0, 0, 0, 0) url("/dist/images/flag.svg") no-repeat scroll 0 0 / 100% auto; 
+    body::after, body::before {
+        background: rgba(0, 0, 0, 0) url("../images/flag.svg") no-repeat scroll 0 0 / 100% auto;
         height: 4px;
         left: 50%;
         overflow: hidden;
@@ -45,7 +45,7 @@
         z-index: -1;
     }
 
-    header { 
+    header {
         padding: 10em;
         height: 900px;
     }
@@ -89,40 +89,40 @@
     .map, .map3 { background-color: #7f7fff; }
     .map2, footer { background-color: #ffffff; }
 
-    .info { 
-        padding: 6px 8px; 
-        background: white; 
-        background: rgba(255,255,255,0.8); 
-        box-shadow: 0 0 15px rgba(0,0,0,0.2); 
-        border-radius: 5px; } 
+    .info {
+        padding: 6px 8px;
+        background: white;
+        background: rgba(255,255,255,0.8);
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        border-radius: 5px; }
 
     .info h4 { margin: 0 0 5px; color: #777; }
 
-    .legend { 
-        text-align: left; 
-        line-height: 18px; 
-        color: #555; 
-    } 
+    .legend {
+        text-align: left;
+        line-height: 18px;
+        color: #555;
+    }
 
-    .legend i { 
-        width: 18px; 
-        height: 18px; 
-        float: left; 
-        margin-right: 8px; 
-        opacity: 0.7; 
+    .legend i {
+        width: 18px;
+        height: 18px;
+        float: left;
+        margin-right: 8px;
+        opacity: 0.7;
     }
 
    .axis {
            font: 10px sans-serif;
    }
-   
+
    .axis path,
    .axis line {
            fill: none;
            stroke: #000;
            shape-rendering: crispEdges;
   }
-  
+
   .x.axis line,
   .y.axis line {
           stroke: lightgrey;
